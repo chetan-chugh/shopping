@@ -1,0 +1,162 @@
+/*Header*/
+*{
+  margin:0px;
+  padding:0px;
+}
+
+.top-heading{
+  text-align:center;
+  background-color:#fff9a1;
+  font-weight: bold;
+  padding: 10px;
+}
+
+.head-icon{
+  display: flex;
+  justify-content: space-between;
+ 
+}
+
+.social-media-icon, .site-icon{
+  display: flex;
+  justify-content: space-evenly;
+  width:200px;
+  margin: 50px 20px;
+}
+
+.site-icon input{
+  width:70px;
+  height: 20px;
+  border: none;
+}
+
+
+.navbar ul{
+  list-style: none;
+  display: flex;
+  justify-content: space-between;
+  width: 550px;
+  margin: 0px 400px;
+}
+
+
+.navbar ul a{
+  text-decoration: none;
+  line-height: 32px;
+  font-weight: bold;
+  display: block;
+  color: black;
+}
+
+.navbar ul a:hover{
+  color:blue;
+}
+
+.navbar ul li{
+  float: left;
+  position: relative;
+}
+
+.navbar ul ul{
+  position: absolute;
+  top:100%;
+  left: 0;
+  display: none;
+  background: white;
+  margin: 0;
+  width: 200px;
+}
+
+.navbar ul ul{
+  background-color: rgb(98, 178, 189);
+}
+
+.navbar ul ul a:hover{
+  color: white;
+  border-left: 5px solid black;
+}
+
+.navbar ul ul li{
+  float: none;
+}
+
+.navbar ul ul li:hover{
+  background-color: rgb(4, 50, 134);
+}
+
+.navbar ul ul ul{
+  top:0;
+  left: 100%;
+}
+
+.navbar ul li:hover > ul{
+  display: block;
+}
+
+/*Footer*/
+footer{
+  background-color:#025012;
+  color:white;
+}
+
+.info, .last-part{
+  padding: 70px 70px 40px 70px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.soical-picture{
+  width: 350px; 
+  display: flex;
+  justify-content: space-between; 
+}
+
+.info a{
+  color: white;
+}
+
+.foot-part{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+
+.emails{
+  width:350px;
+  height:150px;
+}
+
+.foot-input{
+  display: flex;
+  background-color: white;
+  justify-content: space-between;
+  padding: 10px;
+}
+
+.foot-input input,button{
+  background-color: none;
+  border: none;
+}
+
+.company{
+  width:160px;
+  height: 150px;
+}
+
+.links{
+  height: 150px;
+}
+
+.links a{
+  text-decoration: none;
+}
+
+.socialmedia{
+  width: 150px;
+}
+
+.foot-icon{
+  display: flex;
+  justify-content: space-around;
+  margin: 20px 0px;
+}

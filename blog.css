@@ -1,0 +1,113 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+body{
+    font-family: 'Jost', sans-serif;
+}
+
+.text h1{
+    margin-top: 50px;
+    text-align: center;
+}
+
+.content{
+    display: flex;
+    justify-content: space-between;
+    margin:50px 30px;
+    height: 2000px;
+}
+
+.product{
+    display: flex;
+    width:65%;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.column{
+    column-count: 2;    
+    column-rule: 2px solid gray;
+}
+
+.block{
+    height: 370px; 
+    width:400px;
+}
+
+.block img{
+    width: 400px;
+    height: 250px;
+}
+
+.word h2{
+    font-weight: 900;
+}
+
+.details{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 1370px;
+    width: 370px;
+}
+
+.input{
+    background-color: rgb(240, 234, 234);
+    width: 330px;
+    padding: 10px;
+}
+
+.input input{
+    border: none;
+    background-color: rgb(240, 234, 234);
+    padding: 10px 0px;
+}
+
+
+
+.categories li, .recpost{
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height:25px;
+}
+
+.details h2{
+    margin-bottom: 10px;
+}
+
+.recpost{
+    height:500px;
+}
+
+.part{
+    display: flex;
+}
+
+.text{
+    margin-left: 10px;
+}
+
+.text h3{
+    margin-top: 10px;
+}
+.page{
+    margin:50px 320px;
+    width:300px;
+}
+.page a{
+    display: flex;
+    justify-content: space-between;
+    text-decoration: none;
+}
+
+.circle{
+    height: 20px;
+    width: 20px;
+    background-color: silver;
+    border-radius: 50%;
+    text-align: center;
+}
